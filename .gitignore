@@ -1,0 +1,53 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Java / Gradle
+.gradle/
+**/build/
+out/
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Web
+node_modules/
+dist/
+coverage/
+.next/
+
+# Runtime and private game data
+.minecraft/
+**/run/
+runtime-data/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.log
+tmp/
+.tmp/
+
+# Keep dependency lockfiles and source-controlled fixtures tracked.
